@@ -1,0 +1,18 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow - Project Management Dashboard",
+  "private": true,
+  "scripts": {
+    "install:all": "cd src/api && npm install && cd ../../src/client && npm install",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\"",
+    "dev:api": "cd src/api && node server.js",
+    "dev:client": "cd src/client && npm run dev",
+    "build": "cd src/client && npm run build",
+    "test": "cd tests && npm test",
+    "seed": "cd src/api && node db/seed.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

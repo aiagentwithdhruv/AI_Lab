@@ -1,0 +1,17 @@
+{
+  "name": "taskflow-tests",
+  "version": "1.0.0",
+  "description": "TaskFlow API test suite",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "supertest": "^7.0.0"
+  }
+}
