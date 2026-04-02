@@ -9,6 +9,8 @@
 [![Prompts](https://img.shields.io/badge/Prompts-4-blue.svg)](#prompts-at-a-glance)
 [![Made with Claude](https://img.shields.io/badge/Made%20with-Claude-blueviolet.svg)](https://claude.ai)
 
+<img src="assets/ai-agent-teams-lab.png" alt="AI Agent Teams Lab — 30 Agents, 4 Prompts, One Command" width="100%">
+
 </div>
 
 ---
